@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.brand_logo{
+  height: 44px;
+  position: relative;
+  top: 8px;
+  left: 72px;
+}
+
+.brand_name{
+  color: black;
+  font-size: 13px;
+  position: relative;
+  left: 80px;
+  font-weight: 700;
+  font-style: bold;
+  bottom: 8px;
+}
+
+.square{
+  height: 90px;
+  width: 90px;
+  background-color: #D3E0F4;
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.square_active{
+  height: 90px;
+  width: 90px;
+  background-color: #4724F4;
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.square_active p{
+ color: white;
+}
+
+.status_code{
+  padding-left: 10%;
+  color: blue;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 111%
+}
+
+
+.order_count{
+  text-align: center;
+  font-family: Montserrat;
+  color: blue;
+  font-weight: 500;
+  font-size: 225%;
+  position: relative;
+  bottom: 15%;
+}
+
+table {
+  border-left: 1px solid #D3E0F4;
+  border-bottom: 1px solid #D3E0F4;
+  border-top: 1px solid #D3E0F4;
+}
+
+tbody {
+  display:block;
+  height:400px;
+  overflow:auto;
+  overflow-x: hidden;
+}
+
+thead, tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+
+tr{
+  border: 1px solid #E6E6E9!important;
+  margin-top: 1%;
+  margin-left: 1%;
+  cursor: pointer;
+  font-size: 70%;
+  font-weight: 1000;
+  font-family: Montserrat;
+}
+thead {
+  width: calc( 100% - 1em )
+}
+table {
+  width:101%;
+}
+th{
+  font-size: 69%;
+  text-align: center;
+  opacity: 0.30;
+  padding-bottom:1px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6359F2; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+.stepper_holder{
+  border: 1px solid #D3E0F4;
+  margin-left: 1% !important;
+  margin-top: 2% !important;
+  width: 32% !important
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.step {
+  position: relative;
+  min-height: 32px;
+}
+.step > div:first-child {
+  position: static;
+  height: 0;
+}
+.step > div:last-child {
+  margin-left: 32px;
+  padding-left: 16px;
+}
+.circle {
+  background: #4285f4;
+  width: 10px;
+  height: 10px;
+  line-height: 32px;
+  border-radius: 16px;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-left: 13px;
+}
+
+.icon_circle {
+  background: #D3E0F4;
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  border-radius: 30px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.fl_line {
+  position: absolute;
+  border-left: 1px dashed #2828FB;
+  left: 17px;
+  bottom: 0px;
+  top: 51px;
+}
+.line {
+  position: absolute;
+  border-left: 1px dashed #2828FB;
+  left: 17px;
+  bottom: -27%;
+  top: 11px;
+}
+.step:last-child .line {
+  display: none;
+}
+.title {
+  line-height: 32px;
+  font-weight: bold;
+}
+.body{
+  border: 1px solid #E6E6E9;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  position: relative;
+  bottom: 38px;
+  margin-top: 25px;
+  font-size: 75%;
+  font-weight: 600;
+  font-family: Montserrat;
+  opacity: 0.60;
+}
+
+.destination{
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.warehouse{
+  height: 20px;
+  margin-top: 7px;
+  margin-left: -1px;
+}
+.topnav_link{
+  font-weight: 500;
+  color: black;
+}
+.topnav_profile{
+  border-radius: 17px;
+  background-color: #C5C5C7;
+  height: 35px;
+  width: 35px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  position: relative;
+  top: 8px;
+  right: 16px;
+}
+
+.topnav_arrow{
+  position: relative;
+  right: 18px;
+  font-size: 30px !important;
+}
+
+.delivered{
+  background-color: #D3E0F4;
+  color: #57E56F;
+}
