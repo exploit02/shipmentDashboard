@@ -4,17 +4,17 @@ import Logo from '../assets/logo.svg'
 function topNav() {
     return (
         <nav>
-  <div class="nav-wrapper" style={{backgroundColor:`white`}}>
-    <a href="#!" class="brand-logo"><img  src={Logo} className="brand_logo"/><span className="brand_name">Intugine</span></a>
+  <div className="nav-wrapper" style={{backgroundColor:`white`}}>
+    <a href="#!" className="brand-logo"><img  src={Logo} className="brand_logo"/><span className="brand_name">Intugine</span></a>
     
 
-    <ul class="right hide-on-med-and-down">
+    <ul className="right hide-on-med-and-down">
       <li className="active"><a href="#" className="topnav_link">Home</a></li>
       <li><a href="#" className="topnav_link">Brands</a></li>
       <li><a href="#" className="topnav_link">Transporters</a></li>
       
       {/* <li><a href="badges.html">Components</a></li> */}
-      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1" style={{color:`black`}}>
+      <li><a className="dropdown-trigger" href="#!" data-target="dropdown1" style={{color:`black`}}>
       <svg className="topnav_profile" xmlns="http://www.w3.org/2000/svg" width="27.346" height="26.044" viewBox="0 0 27.346 26.044">
   <g id="profile" transform="translate(0 -13.415)">
     <path id="Path_27" data-name="Path 27" d="M137.306,28.031a7.308,7.308,0,1,0-7.319-7.319A7.321,7.321,0,0,0,137.306,28.031Zm0-12.708a5.388,5.388,0,1,1-5.388,5.388A5.4,5.4,0,0,1,137.306,15.323Z" transform="translate(-123.678 0)" fill="#2e384d"/>
@@ -22,7 +22,7 @@ function topNav() {
   </g>
 </svg>
 
-          <i class="material-icons right topnav_arrow">keyboard_arrow_down</i></a></li>
+          <i className="material-icons right topnav_arrow">keyboard_arrow_down</i></a></li>
     </ul>
   </div>
 </nav>
